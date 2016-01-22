@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#1e90ff">
+
+    <ImageView android:src="@drawable/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="18dp"
+        android:onClick="blue"
+        android:layout_gravity="center_horizontal" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a1"
+        android:gravity="center_horizontal"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        android:typeface="serif"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a2"
+        android:gravity="center_horizontal"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        android:typeface="serif"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bluepuzzle"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a3"
+        android:gravity="center_horizontal"
+        android:textColor="#f44336"
+        android:textSize="20sp"
+        android:typeface="serif"
+        android:layout_marginBottom="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:textColor="#0000ff"
+            android:textSize="20sp"
+            android:id="@+id/developer"
+            android:typeface="serif"
+            android:layout_marginBottom="6dp"
+            android:layout_marginLeft="8dp"/>
+
+        <ImageView android:src="@drawable/me"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/email"
+            android:onClick="blue"
+            android:layout_toEndOf="@+id/email" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:id="@+id/email"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/developer"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8090150580"
+            android:id="@+id/cont"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/email"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fb.com/ibluedroid"
+            android:id="@+id/fb"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/cont"/>
+
+    </RelativeLayout>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:gravity="center"
+    android:textStyle="italic"
+    android:text="@string/underline"/>
+
+</LinearLayout>

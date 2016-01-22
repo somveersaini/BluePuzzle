@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e90ff"
+    android:fitsSystemWindows="true"
+    android:gravity="center_vertical">
+
+    <ImageView android:src="@drawable/iconm"
+        android:layout_width="wrap_content"
+        android:layout_height="99dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/ic"
+        android:layout_marginBottom="8dp"
+        android:onClick="blue"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Blue Puzzle"
+        android:textColor="#0000ff"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:typeface="serif" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Playing Words"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+    <Button
+    android:id="@+id/play_button"
+    android:layout_width="170dp"
+    android:layout_height="45dp"
+    android:text="Play"
+        android:background="@drawable/hoverblue1"
+    android:onClick="buttonHandler"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+    android:id="@+id/settings_button"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+    android:text="How To Play"
+        android:background="@drawable/hoverblue1"
+    android:onClick="buttonHandler"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+    android:id="@+id/about_button"
+        android:layout_width="170dp"
+        android:layout_height="45dp"
+    android:text="About"
+        android:background="@drawable/hoverblue1"
+    android:onClick="buttonHandler"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        />
+
+
+</LinearLayout>

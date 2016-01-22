@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Samsaini\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\library-2.4.0-9f2fba08a23fccb8522d7fba32beb36ce3534b07.jar" />
+    </item>
+    <item
+        jar="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\exploded-aar\com.specyci\residemenu\1.6\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5e309b1df3051abebbfda31d1c80cd19bec617da">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes-0132839518dbb98ca675b365efb2631338ee9c32.jar" />
+    </item>
+    <item
+        jar="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes-b08212b7fba5f5876387a722d5a992e51165c7f4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samsaini\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-65f64af925e0060906c0adef583fc24bf61236f3.jar" />
+    </item>
+    <item
+        jar="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\exploded-aar\com.daimajia.androidanimations\library\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8cec50fc9cc847bad0d6ed7d93814f4b34744521">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes-5b8a255b08759f7e2e2a65ede178f65c6e37aa2d.jar" />
+    </item>
+    <item
+        jar="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\exploded-aar\com.daimajia.easing\library\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d7e947f993bf32a00fcb3078cdda8bb11c930afb">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\classes-b5cc87541957d0504534639c1a8ac29911878d8b.jar" />
+    </item>
+    <item
+        jar="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\backkupedrive\lesa\xabber\BluetoothChat\Application\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-f89291e1f72e198678fe7b20b94650b1174624ea.jar" />
+    </item>
+
+</items>

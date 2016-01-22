@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+     tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#004d4d"
+    android:paddingTop="4dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:id="@+id/up">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upper1"
+        android:onClick="blue"
+
+        >
+        <ImageView android:src="@drawable/iconl"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:onClick="blue"
+
+
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appname"
+            android:text="Blue Puzzle"
+            android:singleLine="true"
+            android:onClick="blue"
+            android:layout_marginLeft="8dp"
+            android:textSize="30sp"
+            android:typeface="serif"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toEndOf="@+id/imageView" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_device_access_bluetooth_searching"
+            android:onClick="buttonHandler2"
+            android:background="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/upper1"
+
+        android:id="@+id/bt">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Currently not connected"
+            android:id="@+id/bluename"
+            android:gravity="center" />
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/bt"
+         android:id="@+id/upper"
+        android:weightSum="3"
+         >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="player one"
+            android:typeface="serif"
+            android:layout_weight="1"
+
+            android:id="@+id/pOneScoreTv"
+            android:gravity="center"  />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Score"
+             android:typeface="serif"
+            android:id="@+id/highTv"
+             android:layout_weight="1"
+            android:gravity="center"  />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="player two"
+            android:layout_weight="1"
+
+            android:id="@+id/pTwoScoreTv"
+            android:typeface="serif"
+            android:gravity="center" />
+     </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_below="@+id/up">
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+
+        android:numColumns="8"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundgridview"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/gridView"
+        android:id="@+id/pstats1"
+        android:layout_marginBottom="6dp"
+        android:typeface="serif"
+        android:gravity="center"
+        android:textColor="#009688"
+        android:background="@drawable/statsback"
+        android:textSize="20sp"
+        android:text="player one stats"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/pstats1"
+        android:id="@+id/pstats2"
+        android:typeface="serif"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#009688"
+        android:background="@drawable/statsback"
+        android:text="player two stats"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

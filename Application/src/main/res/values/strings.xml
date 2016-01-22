@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--  MainActity -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Blue Puzzle.</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">Scanning for devices…</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <!-- about activity -->
+    <string name="a1">Blue</string>
+    <string name="a2">Blue Puzzle</string>
+    <string name="a3">Developed By</string>
+    <string name="developer">Somveer Saini</string>
+    <string name="blue">coz everyone follow their first love of life.\nshort and simple</string>
+    <string name="bluepuzzle">Bluetooth based multiplayer word puzzle\n
+        Plus High School Memories.
+        \nSource -> github.com/somveersaini/BluePuzzle
+    </string>
+    <string name="email">somveersaini@yahoo.com\ngithub.com/somveersaini</string>
+
+    <!-- howtoplay activity -->
+    <string name="how">This is a Two-Player game. You can play this game in two modes\n1. Via Bluetooth\n
+        Connect to the other Bluetooth enabled phone running Blue Puzzle by clicking on Bluetooth icon at top right corner or in game menu. And you are ready to play\n
+
+        2. Via phone passing\n
+        You can enjoy this game with your friend on same device if u trust them enough.
+        You have to pass the device turn by turn.\n
+        Gameplay
+\nIn this Game, each player needs to maximize the score by making dictionary words in the game grid.
+One alphabet in one turn
+        \n
+        Enjoy!!!!
+    </string>
+    <string name="title_activity_how_to_play">HowToPlay</string>
+    <string name="notes">\nNotes \n*Slide from left and right to access game menu.
+        \n**Tap on images to rotate them.
+        \n***Check Status of your game in game menu Logs.
+        \n#Restart the app to troubleshoot any prob.
+
+    </string>
+    <string name="copyright">&#169; BlueDroid\nMultiplayer Game Hub</string>
+    <string name="start">\nThankYou\nfor Downloading\nBlue Puzzle\n\n"</string>
+    <string name="htht">Please go through \" How to Play \"</string>
+    <string name="underline">\nAsk and it will be given to you;\nseek and you will find it;\nknock and the door will be opened for you - M7:7</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e90ff"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    tools:context="com.iblue.BluePuzzle.HowToPlay">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Puzzle"
+        android:textSize="25sp"
+        android:id="@+id/howa"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        android:id="@+id/howb"
+        android:layout_below="@+id/howa"
+        android:layout_marginBottom="4dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/steps"
+        android:gravity="center"
+        android:layout_below="@id/howb"
+        android:text="@string/how"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/notes"
+    android:layout_below="@id/steps"
+    android:text="@string/notes"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mm"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:layout_below="@id/notes"
+        android:text="\nThanks To :\n JJ (jagjot Singh)\nBlue (virtual private network)\n\nImperfections are beautiful"
+
+        />
+
+</RelativeLayout>
